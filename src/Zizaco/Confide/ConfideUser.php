@@ -226,6 +226,7 @@ class ConfideUser extends Ardent implements UserInterface {
      * @param bool $forced Indicates whether the user is being saved forcefully
      * @return bool
      */
+    /*
     public function afterSave( $success,  $forced = false )
     {
         if ( $success  && ! $this->confirmed && ! static::$app['cache']->get('confirmation_email_'.$this->_id) )
@@ -244,6 +245,7 @@ class ConfideUser extends Ardent implements UserInterface {
 
         return true;
     }
+    */
 
     /**
      * Runs the real eloquent save method or returns
