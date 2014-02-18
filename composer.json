@@ -1,5 +1,5 @@
 {
-    "name": "zizaco/confide",
+    "name": "travisolbrich/confide",
     "description": "Confide is an authentication solution for Laravel 4",
     "keywords": ["laravel","illuminate","auth"],
     "license": "MIT",
